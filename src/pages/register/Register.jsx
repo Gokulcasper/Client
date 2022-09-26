@@ -24,7 +24,10 @@ const Register = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/auth/register", credentials);
+      await axios.post(
+        "https://raj-hotel-api.herokuapp.com/api/auth/register",
+        credentials
+      );
       navigate("/login");
     } catch (err) {
       setError(err.response.data);

@@ -16,7 +16,9 @@ const Datatable = ({ columns }) => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`/${path}/${id}`);
+      await axios.delete(
+        `https://raj-hotel-api.herokuapp.com/api/${path}/${id}`
+      );
       setList(list.filter((item) => item._id !== id));
     } catch (err) {}
   };
