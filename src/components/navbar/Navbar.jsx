@@ -35,7 +35,10 @@ const Navbar = () => {
               <div className="navShow">
                 <ul>
                   <li className="user">
-                    <img src="https://www.pngmart.com/files/10/User-Account-PNG-Transparent-Image.png" />
+                    <img
+                      src="https://www.pngmart.com/files/10/User-Account-PNG-Transparent-Image.png"
+                      alt="navimg"
+                    />
                     <p>{user.username}</p>
                   </li>
                   <li
@@ -51,7 +54,10 @@ const Navbar = () => {
                         textDecoration: "none",
                       }}
                     >
-                      <img src="https://www.kindpng.com/picc/m/699-6997452_administrator-network-icons-system-avatar-computer-transparent-admin.png" />
+                      <img
+                        src="https://www.kindpng.com/picc/m/699-6997452_administrator-network-icons-system-avatar-computer-transparent-admin.png"
+                        alt="navimg"
+                      />
                       <p>DashBoard</p>
                     </Link>
                   </li>
@@ -65,7 +71,10 @@ const Navbar = () => {
                       to="/login"
                       style={{ color: "inherit", textDecoration: "none" }}
                     >
-                      <img src="https://icons.veryicon.com/png/o/miscellaneous/unicons/exit-14.png" />
+                      <img
+                        src="https://icons.veryicon.com/png/o/miscellaneous/unicons/exit-14.png"
+                        alt="navimg"
+                      />
                       <p>LogOut</p>
                     </Link>
                   </li>

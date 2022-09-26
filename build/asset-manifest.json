@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45ebada2.css",
+    "main.js": "/static/js/main.571ebe48.js",
+    "static/media/gokul.png": "/static/media/gokul.cbe227f35e96f45d2d82.png",
+    "index.html": "/index.html",
+    "main.45ebada2.css.map": "/static/css/main.45ebada2.css.map",
+    "main.571ebe48.js.map": "/static/js/main.571ebe48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ebada2.css",
+    "static/js/main.571ebe48.js"
+  ]
+}

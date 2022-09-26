@@ -7,7 +7,7 @@ import List from "./pages/list/List";
 import Login from "./pages/login/Login";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
-import { productInputs, userInputs } from "./formSource";
+import { userInputs } from "./formSource";
 import Register from "./pages/register/Register";
 import "./style/dark.scss";
 import { useContext } from "react";
