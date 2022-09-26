@@ -23,7 +23,9 @@ const List = () => {
   // }, [destination, options]);
 
   const { data, loading, reFetch } = useFetch(
-    `/hotels?city=${destination}&min=${min || 0}&max=${max || 999}`
+    `https://raj-hotel-api.herokuapp.com/api/hotels?city=${destination}&min=${
+      min || 0
+    }&max=${max || 999}`
   );
 
   const handleClick = () => {

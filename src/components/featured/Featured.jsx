@@ -3,7 +3,7 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading } = useFetch(
-    "/hotels/countByCity?cities=Berlin,Madrid,London"
+    "https://raj-hotel-api.herokuapp.com/api/hotels/countByCity?cities=Berlin,Madrid,London"
   );
 
   return (

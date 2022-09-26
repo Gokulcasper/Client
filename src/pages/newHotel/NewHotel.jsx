@@ -12,7 +12,9 @@ const NewHotel = () => {
   const [info, setInfo] = useState({});
   const [rooms, setRooms] = useState([]);
 
-  const { data, loading } = useFetch("/rooms");
+  const { data, loading } = useFetch(
+    "https://raj-hotel-api.herokuapp.com/api/rooms"
+  );
 
   const handleChange = (e) => {
     setInfo((prev) => ({ ...prev, [e.target.id]: e.target.value }));

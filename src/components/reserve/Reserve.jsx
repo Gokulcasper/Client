@@ -10,7 +10,9 @@ import { useNavigate } from "react-router-dom";
 
 const Reserve = ({ setOpen, hotelId }) => {
   const [selectedRooms, setSelectedRooms] = useState([]);
-  const { data } = useFetch(`/hotels/room/${hotelId}`);
+  const { data } = useFetch(
+    `https://raj-hotel-api.herokuapp.com/api/hotels/room/${hotelId}`
+  );
   const { dates } = useContext(SearchContext);
 
   const getDatesInRange = (startDate, endDate) => {

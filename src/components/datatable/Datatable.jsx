@@ -9,7 +9,7 @@ const Datatable = ({ columns }) => {
   const location = useLocation();
   const path = location.pathname.split("/")[1];
   const [list, setList] = useState([]);
-  const { data } = useFetch(`/${path}`);
+  const { data } = useFetch(`https://raj-hotel-api.herokuapp.com/api/${path}`);
   useEffect(() => {
     setList(data);
   }, [data]);
